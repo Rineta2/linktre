@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+$body-c: rgb(106, 90, 205);
+$title-c: rgb(240, 240, 240);
+$primary-c: rgb(255, 226, 234);
+$body-f: 'Rubik', sans-serif;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $title-c;
+  font-family: $body-f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main {
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
